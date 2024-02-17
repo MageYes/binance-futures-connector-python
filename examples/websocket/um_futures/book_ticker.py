@@ -15,7 +15,7 @@ def message_handler(_, message):
 my_client = UMFuturesWebsocketClient(on_message=message_handler)
 
 
-my_client.book_ticker(symbol="btcusdt")
+my_client.book_ticker(symbol="ethusdt")
 
 time.sleep(10)
 

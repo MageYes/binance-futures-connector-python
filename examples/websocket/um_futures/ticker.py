@@ -16,10 +16,10 @@ my_client = UMFuturesWebsocketClient(on_message=message_handler)
 
 my_client.ticker(
     id=13,
-    symbol="btcusdt",
+    symbol="ethusdt",
 )
 
-time.sleep(2)
+# time.sleep(2)
 
-logging.debug("closing ws connection")
-my_client.stop()
+# logging.debug("closing ws connection")
+# my_client.stop()

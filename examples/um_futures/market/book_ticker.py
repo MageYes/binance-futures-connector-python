@@ -7,4 +7,4 @@ config_logging(logging, logging.DEBUG)
 
 um_futures_client = UMFutures()
 
-logging.info(um_futures_client.book_ticker("BTCUSDT"))
+logging.info(um_futures_client.book_ticker("ETHUSDT"))
