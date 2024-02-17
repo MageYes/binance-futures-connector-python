@@ -7,4 +7,4 @@ config_logging(logging, logging.DEBUG)
 
 um_futures_client = UMFutures()
 
-logging.info(um_futures_client.depth("BTCUSDT", **{"limit": 5}))
+logging.info(um_futures_client.depth("ETHUSDT", **{"limit": 5}))
